@@ -73,19 +73,28 @@ abstract class Request extends BaseRequest implements ValidatesWhenResolved
      *
      * @return bool
      */
-    public abstract function authorize() : bool;
+    public function authorize() : bool
+    {
+        return true;
+    }
 
     /**
      * Get the validation rules that apply to the request.
      *
      * @return array
      */
-    public abstract function rules() : array;
+    public function rules() : array
+    {
+        return [];
+    }
 
     /**
      * Get custom messages for validator errors.
      *
      * @return array
      */
-    public abstract function messages() : array;
+    public function messages() : array
+    {
+        return [];
+    }
 }
