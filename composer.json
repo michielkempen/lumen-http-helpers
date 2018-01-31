@@ -1,0 +1,28 @@
+{
+    "name": "michielkempen/lumen-http-helpers",
+    "description": "A set of helper classes to segregate the validation and transformation logic from controller to separate dedicated classes.",
+    "keywords": [
+        "Michiel Kempen",
+        "Lumen",
+        "HTTP helpers"
+    ],
+    "homepage": "https://github.com/michielkempen/lumen-http-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michiel Kempen",
+            "email": "kempenmichiel@gmail.com",
+            "homepage": "https://michielkempen.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/lumen-framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichielKempen\\LumenHttpHelpers\\": "src"
+        }
+    }
+}
