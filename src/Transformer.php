@@ -10,5 +10,5 @@ abstract class Transformer
 	 * @param Model $model
 	 * @return array
 	 */
-	public abstract function transform(Model $model) : array;
+	public abstract function transform($model) : array;
 }

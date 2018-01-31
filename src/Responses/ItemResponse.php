@@ -26,7 +26,7 @@ class ItemResponse implements Responsable
 	 * @param Model $model
 	 * @param string $transformerClass
 	 */
-	public function __construct(Model $model, string $transformerClass)
+	public function __construct($model, string $transformerClass)
 	{
 		$this->model = $model;
 		$this->transformer = app($transformerClass);
