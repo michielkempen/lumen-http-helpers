@@ -6,6 +6,7 @@ use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Validation\ValidatesWhenResolved;
 use Illuminate\Http\Request as BaseRequest;
 use Illuminate\Support\ServiceProvider;
+use MichielKempen\LumenHttpHelpers\Requests\Request;
 
 class LumenHttpHelpersServiceProvider extends ServiceProvider
 {

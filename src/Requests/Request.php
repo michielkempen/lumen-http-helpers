@@ -1,6 +1,6 @@
 <?php
 
-namespace MichielKempen\LumenHttpHelpers;
+namespace MichielKempen\LumenHttpHelpers\Requests;
 
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Http\Request as BaseRequest;

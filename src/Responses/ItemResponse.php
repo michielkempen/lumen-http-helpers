@@ -2,7 +2,7 @@
 
 namespace MichielKempen\LumenHttpHelpers\Responses;
 
-use MichielKempen\LumenHttpHelpers\Transformer;
+use MichielKempen\LumenHttpHelpers\Transformers\Transformer;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;

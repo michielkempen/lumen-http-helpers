@@ -1,6 +1,6 @@
 <?php
 
-namespace MichielKempen\LumenHttpHelpers;
+namespace MichielKempen\LumenHttpHelpers\Transformers;
 
 use Illuminate\Database\Eloquent\Model;
 

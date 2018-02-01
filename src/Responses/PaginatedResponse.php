@@ -4,7 +4,7 @@ namespace MichielKempen\LumenHttpHelpers\Responses;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Contracts\Support\Responsable;
-use MichielKempen\LumenHttpHelpers\Transformer;
+use MichielKempen\LumenHttpHelpers\Transformers\Transformer;
 
 class PaginatedResponse implements Responsable
 {
