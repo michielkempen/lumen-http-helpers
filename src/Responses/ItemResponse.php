@@ -4,14 +4,13 @@ namespace MichielKempen\LumenHttpHelpers\Responses;
 
 use MichielKempen\LumenHttpHelpers\Transformers\Transformer;
 use Illuminate\Contracts\Support\Responsable;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 class ItemResponse implements Responsable
 {
 	/**
-	 * @var Model
+	 * @var mixed
 	 */
 	private $model;
 
@@ -23,7 +22,7 @@ class ItemResponse implements Responsable
 	/**
 	 * PaginatedResponse constructor.
 	 *
-	 * @param Model $model
+	 * @param $model
 	 * @param string $transformerClass
 	 */
 	public function __construct($model, string $transformerClass)
