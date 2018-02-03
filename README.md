@@ -13,7 +13,7 @@ composer require michielkempen/lumen-http-helpers
 Add the service provider in `bootstrap/app.php`
 
 ```
-$app->register(MichielKempen\HttpLumenHelpersServiceProvider::class);
+$app->register(MichielKempen\LumenHttpHelpersServiceProvider::class);
 ```
 
 ## Security
