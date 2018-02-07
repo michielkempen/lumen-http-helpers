@@ -18,7 +18,8 @@
     ],
     "require": {
         "php": ">=7.0",
-        "laravel/lumen-framework": "5.5.*"
+        "laravel/lumen-framework": "5.5.*",
+        "michielkempen/http-helpers": "^0.0"
     },
     "autoload": {
         "psr-4": {
