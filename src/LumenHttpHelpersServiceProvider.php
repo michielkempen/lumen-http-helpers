@@ -23,7 +23,7 @@ class LumenHttpHelpersServiceProvider extends ServiceProvider
         });
 
         $this->app->afterResolving(ValidatesWhenResolved::class, function (ValidatesWhenResolved $resolved) {
-            $resolved->validate();
+            $resolved->validateResolved();
         });
     }
 
